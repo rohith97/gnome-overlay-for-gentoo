@@ -3,6 +3,9 @@ This overlay has been forked from the gentoo's gnome overlay and all the ebuilds
 USE THIS OVERLAY AT YOUR OWN RISK
 
 
+Add this overlay and symlink the portage files present inside status/portage-configs/  to your /etc/portage directory or edit your package.keywords,use,mask,unmask files accordingly 
+
+
 
 
 
