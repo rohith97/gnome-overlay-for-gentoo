@@ -1,3 +1,12 @@
+This overlay has been forked from the gentoo's gnome overlay and all the ebuilds were updated to nearly 3.4 
+
+USE THIS OVERLAY AT YOUR OWN RISK
+
+
+
+
+
+
 * This is the experimental gnome overlay, USE AT YOUR OWN RISK.
 * It will probably break your deptree, your system, and your backbone.
 * For bugs, head over to #gentoo-desktop @ FreeNode, or https://bugs.gentoo.org/
