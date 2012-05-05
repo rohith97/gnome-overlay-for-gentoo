@@ -1,0 +1,303 @@
+###################
+## START GNOME 3 ##
+###################
+gnome-base/gnome
+gnome-base/gnome-fallback
+gnome-base/gnome-extra-apps
+gnome-base/gnome-core-apps
+gnome-base/gnome-core-libs
+
+# Core
+app-accessibility/at-spi2-atk
+app-accessibility/at-spi2-core
+app-accessibility/caribou
+app-accessibility/orca
+app-admin/packagekit-base
+app-admin/packagekit-gtk
+app-arch/file-roller
+app-cdr/brasero
+app-crypt/gcr
+app-crypt/p11-kit
+app-crypt/seahorse
+app-crypt/seahorse-plugins
+app-misc/tracker
+dev-lang/orc
+dev-lang/vala
+dev-libs/atk
+dev-libs/folks
+dev-libs/gdl:1
+dev-libs/gdl:3
+dev-libs/glib
+dev-libs/libgdata
+dev-libs/libgweather
+dev-libs/libpeas
+dev-libs/libunique:3
+dev-libs/libwacom
+dev-perl/Text-CSV
+dev-python/pyatspi
+dev-python/pycairo
+dev-python/pygobject:2
+dev-python/pygobject:3
+dev-util/anjuta
+dev-util/devhelp
+dev-util/glade
+dev-util/gnome-devel-docs
+gnome-base/dconf
+gnome-base/gconf
+gnome-base/gdm
+gnome-base/gnome-control-center
+gnome-base/gnome-desktop:2
+gnome-base/gnome-desktop:3
+gnome-base/gnome-keyring
+gnome-base/gnome-menus:0
+gnome-base/gnome-menus:3
+gnome-base/gnome-session
+gnome-base/gnome-settings-daemon
+gnome-base/gsettings-desktop-schemas
+gnome-base/gvfs
+gnome-base/libgdu
+gnome-base/libgnome-keyring
+gnome-base/libgnomekbd
+gnome-base/librsvg
+gnome-extra/at-spi
+gnome-extra/bug-buddy
+gnome-extra/evolution-data-server
+gnome-extra/evolution-exchange
+gnome-extra/evolution-mapi
+gnome-extra/gcalctool
+gnome-extra/gconf-editor
+gnome-extra/gnome-contacts
+gnome-extra/gnome-documents
+gnome-extra/gnome-media
+gnome-extra/gnome-packagekit
+gnome-extra/gnome-power-manager
+gnome-extra/gnome-screensaver
+gnome-extra/gnome-system-monitor
+gnome-extra/gnome-user-docs
+gnome-extra/gtkhtml:4.0
+gnome-extra/gucharmap
+gnome-extra/libgda:4
+gnome-extra/libgda:5
+gnome-extra/yelp
+gnome-extra/yelp-xsl
+gnome-extra/zenity
+mail-client/evolution
+media-fonts/cantarell
+media-gfx/eog
+net-analyzer/gnome-nettool
+net-dns/avahi
+net-libs/gnome-online-accounts
+net-libs/gtk-vnc
+net-libs/libepc
+net-libs/libmapi
+net-libs/liboauth
+net-libs/libproxy
+net-libs/libsoup
+net-libs/libsoup-gnome
+net-libs/webkit-gtk
+net-misc/vinagre
+net-misc/vino
+net-print/cups
+net-wireless/gnome-bluetooth
+sys-apps/accountsservice
+sys-libs/libosinfo
+x11-libs/gdk-pixbuf
+x11-libs/goocanvas:2.0
+x11-libs/goocanvas:0
+x11-libs/gtk+:2
+x11-libs/gtk+:3
+x11-libs/gtksourceview:3.0
+x11-libs/libnotify
+x11-libs/libwnck
+x11-libs/libxklavier
+x11-libs/pango
+x11-misc/notification-daemon
+x11-plugins/pidgin-libnotify
+x11-terms/gnome-terminal
+x11-wm/mutter
+
+# GNOME Disk Utility
+sys-fs/udisks:2
+sys-apps/gnome-disk-utility
+
+# Libraries for Apple products
+app-pda/libplist
+app-pda/libimobiledevice
+
+# Gobject Introspection
+dev-libs/gobject-introspection-common
+dev-libs/gobject-introspection
+
+# GNOME Utils split
+gnome-extra/gnome-utils
+app-dicts/gnome-dictionary
+app-admin/gnome-system-log
+gnome-extra/gnome-search-tool
+media-gfx/gnome-font-viewer
+media-gfx/gnome-screenshot
+sys-apps/baobab
+
+# Glib Networking
+net-libs/gnutls
+net-libs/glib-networking
+
+# Development utilities
+app-text/gnome-doc-utils
+app-text/yelp-tools
+dev-util/gdbus-codegen
+dev-util/gtk-builder-convert
+dev-util/itstool
+dev-util/gtk-doc
+dev-util/gtk-doc-am
+
+# Themes
+x11-themes/gnome-backgrounds
+x11-themes/gnome-icon-theme
+x11-themes/gnome-icon-theme-symbolic
+x11-themes/gnome-icon-theme-extras
+x11-themes/gnome-themes-standard
+x11-themes/gtk-engines-clearlooks
+x11-themes/gtk-engines-unico
+
+# CPP bindings
+dev-cpp/libxmlpp
+dev-cpp/atkmm
+dev-cpp/cairomm
+dev-cpp/gconfmm
+dev-cpp/gstreamermm
+dev-cpp/glibmm
+dev-cpp/gtkmm:2.4
+dev-cpp/gtkmm:3.0
+dev-cpp/gtksourceviewmm:3.0
+dev-cpp/mm-common
+dev-cpp/pangomm
+
+# Clutter
+dev-libs/json-glib
+media-libs/cogl:1.0
+media-libs/clutter:1.0
+media-libs/clutter-gtk:1.0
+media-libs/clutter-gst:1.0
+
+# Colord
+gnome-extra/gnome-color-manager
+media-gfx/shared-color-profiles
+~media-libs/lcms-2.2:2
+media-libs/mash
+x11-misc/colord
+
+# libcanberra
+media-libs/libcanberra
+
+# libsocialweb
+net-libs/libsocialweb
+net-libs/rest
+
+# Gedit
+app-editors/gedit
+app-editors/gedit-plugins
+
+# Epiphany
+www-client/epiphany
+www-client/epiphany-extensions
+
+# Empathy
+media-libs/libchamplain:0.8
+media-libs/libchamplain:0.10
+media-libs/libchamplain:0.12
+media-libs/memphis
+net-im/telepathy-logger
+net-im/telepathy-mission-control
+net-libs/farstream
+net-libs/libnice
+net-libs/telepathy-farstream
+net-libs/telepathy-glib
+net-voip/telepathy-gabble
+app-misc/geoclue
+net-im/empathy
+
+# NM
+net-misc/mobile-broadband-provider-info
+net-wireless/wimax-tools
+net-wireless/wimax
+>=net-misc/networkmanager-0.8.990
+>=net-misc/networkmanager-vpnc-0.8.990
+>=net-misc/networkmanager-pptp-0.8.990
+>=net-misc/networkmanager-openvpn-0.8.990
+>=net-misc/networkmanager-openswan-0.8.990
+>=net-misc/modemmanager-0.4.996
+>=gnome-extra/nm-applet-0.8.990
+
+# Nautilus
+~media-libs/libexif-0.6.20
+gnome-base/nautilus
+gnome-extra/sushi
+gnome-extra/nautilus-tracker-tags
+
+# Rhythmbox, Sound Juicer, Totem
+dev-libs/gmime:2.4
+dev-libs/gmime:2.6
+dev-libs/totem-pl-parser
+media-libs/libgnome-media-profiles:3
+media-libs/libdmapsharing:3.0
+net-misc/npapi-sdk
+media-sound/rhythmbox
+>=media-sound/sound-juicer-2.99
+>=media-video/totem-3.0
+
+# Shotwell
+dev-libs/libunique:1
+media-gfx/shotwell
+
+# Tomboy & clones
+app-misc/gnote
+app-misc/tomboy
+
+# GNOME Shell
+=net-libs/xulrunner-2.0*
+dev-libs/gjs
+gnome-base/gnome-shell
+
+# Not needed by GNOME 3, but will cause conflicts due to xulrunner-2.0
+=www-client/firefox-4.0*
+
+# GNOME Fallback
+gnome-base/gnome-applets
+gnome-base/gnome-panel
+>=x11-wm/metacity-2.30.3-r1
+
+# GNOME Games
+games-board/aisleriot
+gnome-base/gnome-js-common
+dev-libs/seed
+gnome-extra/gnome-games
+gnome-extra/gnome-games-extra-data
+
+# Polkit
+net-print/cups-pk-helper
+
+# Cheese
+# Needs gst good, base from above
+media-video/gnome-video-effects
+x11-libs/mx
+media-video/cheese
+
+# Evince
+=app-text/libgxps-0.2.1
+~app-text/poppler-0.18.4
+app-text/evince
+
+# Vte
+x11-libs/gnome-pty-helper
+x11-libs/vte:0
+x11-libs/vte:2.90
+
+# Extras
+gnome-extra/drwright
+gnome-extra/gnome-tweak-tool
+gnome-extra/mousetweaks
+gnome-extra/office-runner
+
+#################
+## END GNOME 3 ##
+#################
