@@ -64,9 +64,6 @@ src_prepare() {
 	# Don't show KDE standalone settings desktop files in GNOME others menu
 	epatch "${FILESDIR}/${PN}-3.0.0-ignore_kde_standalone.patch"
 
-	# Ignore invalid .desktop files (prevents gnome-shell crash), in next release
-	epatch "${FILESDIR}/${PN}-3.2.0.1-ignore-invalid-entries.patch"
-
 	# disable pyc compiling
 	echo > py-compile
 
