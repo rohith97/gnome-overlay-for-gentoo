@@ -26,3 +26,7 @@ DOCS="AUTHORS ChangeLog NEWS README"
 pkg_setup() {
 	G2CONF="${G2CONF} --enable-animation $(use_enable accessibility hc)"
 }
+
+src_prepare() {
+	epatch "${FILESDIR}/glib.patch"
+}
