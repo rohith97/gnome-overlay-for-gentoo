@@ -27,7 +27,6 @@ RDEPEND="
 	>=gnome-extra/gconf-editor-3.0.0
 	>=gnome-extra/gnome-games-${PV}
 	>=gnome-extra/gnome-system-monitor-${PV}
-	>=gnome-extra/gnome-tweak-tool-3.2.2
 	>=gnome-extra/gnome-utils-${PV}
 	>=gnome-extra/gucharmap-${PV}:2.90
 	>=gnome-extra/sushi-0.2.0

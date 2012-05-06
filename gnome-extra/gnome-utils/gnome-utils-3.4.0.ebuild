@@ -13,11 +13,4 @@ IUSE=""
 KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux"
 
 DEPEND=""
-RDEPEND="
-	>=app-admin/gnome-system-log-${PV}
-	>=app-dicts/gnome-dictionary-${PV}
-	>=gnome-extra/gnome-search-tool-${PV}
-	>=media-gfx/gnome-font-viewer-${PV}
-	>=media-gfx/gnome-screenshot-${PV}
-	>=sys-apps/baobab-${PV}
-"
+RDEPEND=""

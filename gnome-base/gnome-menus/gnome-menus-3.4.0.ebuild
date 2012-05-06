@@ -65,7 +65,7 @@ src_prepare() {
 	epatch "${FILESDIR}/${PN}-3.0.0-ignore_kde_standalone.patch"
 
 	# Ignore invalid .desktop files (prevents gnome-shell crash), in next release
-	epatch "${FILESDIR}/${P}-ignore-invalid-entries.patch"
+	epatch "${FILESDIR}/${PN}-3.2.0.1-ignore-invalid-entries.patch"
 
 	# disable pyc compiling
 	echo > py-compile

@@ -36,7 +36,7 @@ pkg_setup() {
 
 src_prepare() {
 	# Upstream patch to use correct GtkTrayIcon:fg-color type; fixes g-s-d crash
-	epatch "${FILESDIR}/${P}-fg-color.patch"
+	epatch "${FILESDIR}/libgnomekbd-3.2.0-fg-color.patch"
 
 	gnome2_src_prepare
 }
